@@ -1,0 +1,24 @@
+Processos no pc:
+1) criar uma pasta
+	1.1) $ git clone [link do repositório]
+
+2) entrar no repositório
+	2.1) cd [repositório]
+	2.2) git status
+		Atualizado (up to date) - origin/main
+
+3) Criação de pasta
+	3.1) arquivo txt
+
+4) $ git status
+	4.1) Atualizado. Mas é necessário incluir/commit o segundo arquivo (nome em vermelho):
+	4.2.1)$ git add .
+	4.2.2)$ git status
+	4.2.2.1) Atualizado! (nome em verde).
+
+5)Publicação
+	5.1)$ git commit  -m "Leia o arq1 e processos"
+		5.1.1) Para dar certo, se identifique ao git. (Será dado instruções
+	5.2)$ git status
+	5.3)$ git push origin main
+		5.3.1) Irá aparecer um software para a conexão. Você fará o login lá.
